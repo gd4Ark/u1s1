@@ -12,8 +12,17 @@ export default defineConfig({
   themeConfig: {
     links: [
       {
+        name: 'Stream',
+        url: '/stream'
+      },
+      {
+        name: 'Post',
+        url: '/'
+      },
+      {
         name: 'RSS',
-        url: '/api/rss'
+        url: '/api/rss',
+        target: '_blank'
       }
     ]
   },
